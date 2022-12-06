@@ -1,0 +1,3 @@
+.cards app-card + app-card {
+    @apply border-t border-tertiary
+}
