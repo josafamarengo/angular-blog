@@ -1,2 +1,53 @@
+<app-header></app-header>
 <app-title></app-title>
+<section
+  class="
+    flex
+    flex-col
+    items-center
+    md:flex-row
+    md:justify-between
+    max-w-5xl
+    mx-auto
+  "
+>
+  <div
+  class="
+  w-full
+  p-4
+  md:w-1/2
+  md:border-none
+  md:ml-6
+  border-b
+  border-tertiary
+  "
+  id="big-card"
+  >
+    <app-big-card
+      coverImage="https://picsum.photos/500/300"
+    ></app-big-card>
+  </div>
+  <div
+  class="
+    w-full
+    md:w-1/2
+    h-full
+
+    p-4
+
+    mr-6
+
+    flex
+    flex-col
+    justify-between
+
+    cards
+  "
+  >
+    <app-card></app-card>
+    <app-card></app-card>
+    <app-card></app-card>
+  </div>
+</section>
+<app-footer></app-footer>
 <router-outlet></router-outlet>
